@@ -96,16 +96,16 @@ You made it across the desert! You won!
 
 Here are the steps to complete this tutorial task. Feel free to modify and add to the program. Try the game with your classmates, or friends and family.
 
-1. Create a new project named camel, and add a `c++ source file` named `camel.cpp` and add code to print the instructions to the screen. Do this with multiple output statements. Don't use one output statement and multiple \n characters to jam everything on one line.
-    ```
-        Welcome to Camel!
-        You have stolen a camel to make your way across the great Mobi desert.
-        The natives want their camel back and are chasing you down! Survive your
-        desert trek and out run the natives.
-    ```
-2. Create a int variable called `done` and set to `0`.
-3. Create a while loop that will keep looping while `done` is `0`.
-4. Inside the loop, print out the following:
+- 1. Create a new project named camel, and add a `c++ source file` named `camel.cpp` and add code to print the instructions to the screen. Do this with multiple output statements. Don't use one output statement and multiple \n characters to jam everything on one line.
+```
+    Welcome to Camel!
+    You have stolen a camel to make your way across the great Mobi desert.
+    The natives want their camel back and are chasing you down! Survive your
+    desert trek and out run the natives.
+```
+- 2. Create a int variable called `done` and set to `0`.
+- 3. Create a while loop that will keep looping while `done` is `0`.
+- 4. Inside the loop, print out the following:
 ```
     A. Drink from your canteen.
     B. Ahead moderate speed.
