@@ -41,7 +41,7 @@ D:\VC6SP6\MyProjects\概率\概率.cpp(11) : error C2065: 'W' : undeclared ident
 |----|----|
 |P(S)|probabilityOfSpam|
 |P(H)|probabilityOfHealthy|
-|P(W|S)|probabilityOfWordWhenSpam|
-|P(W|H)|probabilityOfWordWhenHealthy|
+|P(W\|S)|probabilityOfWordWhenSpam|
+|P(W\|H)|probabilityOfWordWhenHealthy|
 
 尽管这样看上去会给写程序带来更多的输入量，但是再有上下文提示的编辑器里面完全不是问题（不幸的是VC6.0并不具有这种编辑器）。
