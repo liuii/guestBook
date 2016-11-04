@@ -22,8 +22,8 @@ int main() {
 	// caculate the result
 	// notice that the statement can be break, but the tokens cannot be break
 	probabilityOfSpamWhenWord = (probabilityOfWordWhenSpam * probabilityOfSpam) / 
-								(probabilityOfWordWhenSpam * probabilityOfSpam +
-								probabilityOfWordWhenHealthy * probabilityOfHealthy);
+				(probabilityOfWordWhenSpam * probabilityOfSpam +
+				probabilityOfWordWhenHealthy * probabilityOfHealthy);
 
 	// output the result
 	cout << "The probability of spam when keyword found is "
