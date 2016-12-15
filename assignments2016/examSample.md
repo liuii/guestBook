@@ -2,7 +2,7 @@
 
 ## 程序基本结构
 
-1. 输入矩形的两个边a、b，求面积S和周长L。（顺序结构）  
+### 1. 输入矩形的两个边a、b，求面积S和周长L。（顺序结构）  
 ``` c++
 #include <iostream>
 using namespace std;
