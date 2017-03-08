@@ -7,9 +7,9 @@ int main(){
 	srand((unsigned int)time(NULL));
 	
 	cout << "Welcome to Camel!" << endl;
-    cout << "You have stolen a camel to make your way across the great Mobi desert." << endl;
-    cout << "The natives want their camel back and are chasing you down! Survive your" << endl;
-    cout << "desert trek and out run the natives." << endl;
+	cout << "You have stolen a camel to make your way across the great Mobi desert." << endl;
+	cout << "The natives want their camel back and are chasing you down! Survive your" << endl;
+	cout << "desert trek and out run the natives." << endl;
 
 	int done = 0;
 
