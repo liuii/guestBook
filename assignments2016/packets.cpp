@@ -42,6 +42,22 @@ int main() {
 		}
 		if (flag == 0) break;
 	}
+	
+	double capacity = 150;
+	double totalPrice = 0;
+
+	cout << "weight,price,pPKg,tP,rC" << endl;
+	for (i = 0; i < N; i ++){
+		if (weight[i] <= capacity){
+			capacity -= weight[i];
+			totalPrice += price[i];
+			cout << weight[i] << ',' << price[i] << ",";
+			cout << pricePerKg[i] << ',' << totalPrice << ',';
+			cout << capacity << endl;
+			
+		}
+	}
+
 
 	return 0;
 }
