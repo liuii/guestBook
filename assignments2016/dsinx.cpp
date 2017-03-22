@@ -1,3 +1,11 @@
+/*
+使用控制台的步骤：
+1. 按下“Win”键和“R”键，然后输入“cmd”，后回车。
+2. 然后转到debug所在的文件夹。
+3. 命令格式，其中xxx是可执行文件的文件名，xx是要保存文件的文件名：
+   xxx.exe > xx.cvs
+4. 用Excel打开cvs文件。
+*/
 #include <IOSTREAM>
 #include <CMATH>
 using namespace std;
