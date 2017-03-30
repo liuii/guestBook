@@ -2,8 +2,10 @@
 using namespace std;
 int main() {
 	const int N = 10;
-	int v[N] = {12, 25, 37, 46, 59,
-				62, 78, 85, 93, 109};
+	int v[N] = {
+		12, 25, 37, 46, 59,
+		62, 78, 85, 93, 109
+	};
 	int x;
 	cout << "Please input a number: ";
 	cin >> x;
